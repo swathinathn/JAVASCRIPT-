@@ -1,0 +1,1 @@
+//it is a js method used to access an html elements by its id attributes

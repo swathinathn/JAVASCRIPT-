@@ -1,0 +1,13 @@
+predefined-functions(build-in functions or native methods)
+predefined functions are functions that are already provided by JS.
+
+
+*save time=> no need to call code from scratch
+*increase code readability
+*optimized
+
+
+types..
+math functions
+string functions
+date functions

@@ -1,0 +1,25 @@
+<!-- //it selectes an elemnets by there name and attributes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>    
+    
+    </form>
+    <script>
+        let radios = document.getElementsByName("gender");
+        console.log(radios.length);
+        radios.forEach(radio =>{
+            console.log(radio.value);
+        })
+              
+ </script>
+    
+</body>
+</html>

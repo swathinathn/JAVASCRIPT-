@@ -1,0 +1,5 @@
+document object modal(dom)
+dom is a programing interface provide by browser it allows javascript to access manupulate the structure of style and content 
+of webpage
+programing interface is a set of tools ,methods and  
+riles that allows software to interact something else such as system,service or document
