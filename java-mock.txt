@@ -1,0 +1,55 @@
+what is the difference btwn synchronous and asynchronous operations.?
+ans:
+what is DOM.?
+ans:--document object modal(dom)
+dom is a programing interface provide by browser it allows javascript to access manupulate the structure of style and content 
+of webpage
+programing interface is a set of tools ,methods and  
+riles that allows software to interact something else such as system,service or document....
+
+
+what are the datatypes in js.?
+ans:
+
+what is an event in js.?
+     ans:events is an actions or occurance that happens to the browser.
+         event handling-- event handling means writing a js code that will run  when a specific event occurs
+
+
+what are closure in js.?
+what is the diff btwn map and forEach.?
+     ans: map  :  transform each element and return a new array
+        forEach: executes a function for each elemnts in the array(does not return)
+
+what is a callback function in js.?
+what is inheritance in js.?
+     ans:one class can inherit properties and methods from another class (by using 'extend' keywords).
+what is the purpose of try-Catch statement in js.?
+     ans:
+what is the purpose of addeventListner method.?
+
+what is the diff btwn query-selector and queryselectorall.?
+what is the diff btwn null and undefined.?
+what is the diff btwn == and ===.?
+what is hoisting in js .?
+what is the 'this' keyword in js.?
+     ans:this"-keyword = its refers the object itself.(used to accesss properties and methods)
+
+
+what are the different ways to define  function in js.?
+what is the purpose of let , var and const.?
+    ans:/* var- re-decalarable 
+         *re-assing*/
+       /**let- re-assign only */
+     /**const-block scope ,re declaration and reassign is not possible*/
+difference btwn primitive and non-primitive datatypes?
+what's the use of spread operator?
+
+ans: 
+what is ternary operator in js?
+ans: The ternary or conditional operator  kind of similar to the if-else statement 
+       as it follows the same algorithm as of if-else statement but the ternay operator takes 
+       less space and helps to write the if-else statements in the shortest way possible. 
+       It is also known as the ternary operator in C as it operates on three operands.
+what is rest-parameter in js?
+     ans:the rest parameter syntax:(...) allows a function to accept an infinite number of arguments as an array

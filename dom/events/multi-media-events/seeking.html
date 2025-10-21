@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeking Example</title>
+</head>
+<body>
+    <audio controls id="audioSeeking">
+        <source src="/dom/events/multi-media-events/s1000r-black-widow-exhaust-road-test-61430.mp3" type="audio/mpeg">
+    </audio>
+
+    <p id="status">Status: Not seeking</p>
+
+    <script>
+        const audio = document.getElementById("audioSeeking");
+        const status = document.getElementById("status");
+
+        
+        audio.addEventListener("seeking", () => {
+            status.textContent =` Status: Seeking... (current time: ${audio.currentTime.toFixed(2)}`;
+        });
+
+        
+        audio.addEventListener("seeked", () => {
+            status.textContent =` Status: Seek completed at ${audio.currentTime.toFixed(2)}`;
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>

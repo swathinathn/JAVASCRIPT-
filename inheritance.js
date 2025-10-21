@@ -1,4 +1,4 @@
-//one class can inherit properties and methods from another class (by using 'extend' keywords)
+//one class can inherit properties and methods from another class (by using 'extend' keywords).
 //base class
 class Animal {
     constructor(name){

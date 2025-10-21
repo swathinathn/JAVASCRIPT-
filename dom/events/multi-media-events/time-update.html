@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <audio controls id="audiotimeUpdate">
+            <source src="./s1000r-black-widow-exhaust-road-test-61430.mp3" type="audio/mp3">
+        </audio>
+
+        <p id="timeoutput">Current time: 0</p>
+
+        <script>
+            const audioTimeUpdate = document.getElementById("audiotimeUpdate");
+            const timeOutput = document.getElementById("timeoutput");
+
+            audioTimeUpdate.addEventListener('timeupdate', () => {
+                timeOutput.textContent = `Current time: ${audioTimeUpdate.currentTime.toFixed(2)}`;
+            });
+        </script>
+
+    </body>
+
+    </html>
+</body>
+
+</html>

@@ -8,8 +8,8 @@ console.log(b);
 
 //skipping values
 
-const[, , c]= numbers;
-console.log(c);
+//const[, , c]= numbers;
+//console.log(c);
 
 
 //using speard operator 

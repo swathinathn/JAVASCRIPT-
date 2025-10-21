@@ -1,4 +1,4 @@
-/*a promise in js is an object that represent the evential compeletion or 
+/*a promise in js is an object that represent the eventual compeletion or 
 failure of an asynchronus operation and it's resulting values*/
 //resolve- called when the operation is successfull. 
 //reject- called when the operation  fails
